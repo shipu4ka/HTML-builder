@@ -1,5 +1,5 @@
 const path = require('path');
-let fs = require('fs');
+const fs = require('fs');
 const {stdin, stdout} = process;
 let output = fs.createWriteStream(path.resolve('02-write-file', "text.txt"), {encoding: 'utf-8'});
 
